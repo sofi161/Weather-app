@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('So\ bright.jpeg');
+    background-size: cover;
+    height: 90vh;
+}
+
+.container{
+    max-width: fit-content;
+    background-color: rgba(231, 230, 228, 0.85);
+    margin: auto;
+    margin-top: 15vh;
+    padding: 3rem;
+    border: 2px solid black;
+    border-radius: 0.75rem;
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+#search,#submit{
+    border: none;
+    outline: auto;
+    padding: 0.5rem;
+    outline-color: rgb(0, 0, 0);
+}
+
+#submit{
+    background-color: black;
+    color: white;
+}
+
+.weather-data {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 5px;
+    padding: 1.5em;
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .weather-data > img {
+    border-radius: 50%;
+    background-color: lightskyblue;
+    color: black;
+  }
+
